@@ -55,21 +55,23 @@ nav a:hover {
 .gifLain1 {
     width: 29%;
     padding-top: 29px;
+    padding-bottom: 16px;
 }
 .mensajePrincipal p {
     margin: 13px;
 }
 
-.mensajePrincipal img + p {
-
+span {
+    margin: 13px;
     font-weight: bold;
     font-size: 2em;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 13px;
     transition: 400ms;
 }
 
-.mensajePrincipal img + p:hover {
+
+span:hover {
     color: rgb(210, 102, 120);
     cursor: default;
 }
